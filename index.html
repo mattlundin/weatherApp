@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Weather</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title">Weather by City</h1>
+			<div class="search">
+				<input type="text" class="search-bar" placeholder="Search City" />
+				<button class="btn"><i class="fas fa-search"></i></button>
+			</div>
+			<div class="weather loading">
+				<h2 class="city"></h2>
+				<h1 class="current-temp"></h1>
+				<div class="flex">
+					<img src="" alt="" class="icon" />
+					<div class="description"></div>
+				</div>
+				<div class="humidity"></div>
+				<div class="wind"></div>
+			</div>
+		</div>
+
+		<div class="kinetic"></div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
